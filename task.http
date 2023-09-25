@@ -1,0 +1,23 @@
+### TRAER TAREAS
+GET http://localhost:3000/api/tasks
+
+### CREAR TAREA
+POST http://localhost:3000/api/tasks
+Content-Type: application/json
+
+{
+    "title": "sadasda",
+    "description": "dassad",
+    "poster": "www.url.com"
+}
+
+### MODIFICAR TAREA
+PUT  http://localhost:3000/api/tasks/15
+Content-Type: application/json
+
+{
+    "title": "24"
+}
+
+### ELIMINAR
+DELETE http://localhost:3000/api/tasks/10
